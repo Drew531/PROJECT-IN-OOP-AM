@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5ebe0; 
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #5d001e; 
+}
+
+#activity5-container {
+  background-color: #ffffff; 
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(93, 0, 30, 0.3); 
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: #800020; 
+}
+
+#tempInput {
+  padding: 0.5rem;
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 1rem;
+  border: 1px solid #d2b48c; 
+  border-radius: 4px;
+}
+
+#tempInput:focus {
+  outline: none;
+  border-color: #800020;
+  box-shadow: 0 0 5px #b5651d;
+}
+
+button {
+  background-color: #800020;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5d001e; 
+}
+
+#result {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #5d001e;
+}
